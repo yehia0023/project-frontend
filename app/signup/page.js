@@ -1,10 +1,15 @@
+import Navbar from "../components/Navbar"
+
 export const metadata = {
     title: 'sign up page'
-  }
-  
-  export default function SignupPage() {
+}
+
+export default function SignupPage() {
     return (
-      <h1>Sign Up Page</h1>
+        <div>
+            <Navbar />
+            <h1>Sign Up Page</h1>
+        </div>
     )
-  }
+}
   

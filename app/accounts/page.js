@@ -1,10 +1,14 @@
+import Navbar from "../components/Navbar"
+
 export const metadata = {
     title: 'accounts page'
-  }
+}
   
-  export default function AccountsPage() {
+export default function AccountsPage() {
     return (
-      <h1>Accounts Page</h1>
+        <div>
+            <Navbar />
+            <h1>Accounts Page</h1>
+        </div>
     )
-  }
-  
+}
