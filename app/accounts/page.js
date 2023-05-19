@@ -1,4 +1,7 @@
-import Navbar from "../../components/Navbar"
+"use client";
+
+import Navbar from "@/components/Navbar"
+import Accounts from "@/components/Accounts"
 
 export const metadata = {
     title: 'accounts page'
@@ -8,7 +11,7 @@ export default function AccountsPage() {
     return (
         <div>
             <Navbar />
-            <h1>Accounts Page</h1>
+            <Accounts />
         </div>
     )
 }

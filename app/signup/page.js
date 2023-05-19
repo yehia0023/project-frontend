@@ -1,3 +1,6 @@
+"use client";
+
+import SignupForm from "@/components/SignupForm"
 import Navbar from "../../components/Navbar"
 
 export const metadata = {
@@ -8,7 +11,7 @@ export default function SignupPage() {
     return (
         <div>
             <Navbar />
-            <h1>Sign Up Page</h1>
+            <SignupForm />
         </div>
     )
 }
